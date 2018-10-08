@@ -1,5 +1,5 @@
 
-//实现指令解析器Compile 1
+//实现指令解析器Compile 2
 function Compile(el,vm){
   this.$vm = vm;
   this.$el = this.isElementNode(el) ? el : document.querySelector(el);
